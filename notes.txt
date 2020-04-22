@@ -1,0 +1,9 @@
+course website:
+https://github.com/AngularBootCamp/abc
+
+Events:
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+
+http://videomanager.angularbootcamp.com/#/dashboard?videoId=JPuqluYYa-o
+

@@ -1,0 +1,12 @@
+<div class="videoList">
+    <mat-card  *ngFor="let video of videoData;" (click)="selectVideo(video)">
+        <mat-card-title>
+            <b>{{video.title}}</b>
+            <p>By: {{video.author}}</p>
+        </mat-card-title>
+
+        <mat-card-content>
+            <img [src]="'https://img.youtube.com/vi/' + video.id + '/0.jpg'" [alt]="video.title">
+        </mat-card-content>
+    </mat-card>
+</div>
